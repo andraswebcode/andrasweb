@@ -30,7 +30,7 @@
     <!-- Hero Section End -->
 
     <!-- about Section Start -->
-    <section id="about" class="py-20 border-b border-line">
+    <section id="about" class="py-25 border-b border-line">
         <div class="container">
             <div class="grid sm:grid-cols-2 grid-cols-1 gap-12">
                 <div>
@@ -104,7 +104,7 @@
     <!-- about Section End -->
 
     <!-- services Section Start -->
-    <section id="services" class="py-20 border-b border-line">
+    <section id="services" class="py-25 border-b border-line">
         <div class="container">
             <div class="pb-12">
                 <p class="eyebrow">Miben segíthetek</p>
@@ -133,7 +133,7 @@
     <!-- services Section End -->
 
     <!-- hobby Section Start -->
-    <section id="hobby" class="py-20 border-b border-line">
+    <section id="hobby" class="py-25 border-b border-line">
         <div class="container">
             <div class="pb-12">
                 <p class="eyebrow">Saját projektek</p>
@@ -153,7 +153,7 @@
                     </div>
                     <div class="grow-1"></div>
                     <div>
-                        <a href="#" class="btn-secondary">Nézd meg</a>
+                        <a href="https://pixkreator.com/" target="_blank" class="btn-secondary">Nézd meg</a>
                     </div>
                 </div>
                 <div class="card">
@@ -168,7 +168,7 @@
                     </div>
                     <div class="grow-1"></div>
                     <div>
-                        <a href="#" class="btn-secondary">Nézd meg</a>
+                        <a href="https://xrobi.hu/" target="_blank" class="btn-secondary">Nézd meg</a>
                     </div>
                 </div>
                 <div class="card">
@@ -185,7 +185,7 @@
                     </div>
                     <div class="grow-1"></div>
                     <div>
-                        <a href="#" class="btn-secondary">Nézd meg</a>
+                        <a href="https://github.com/andraswebcode/grafikjs" target="_blank" class="btn-secondary">Nézd meg</a>
                     </div>
                 </div>
                 <div class="card">
@@ -200,7 +200,7 @@
                     </div>
                     <div class="grow-1"></div>
                     <div>
-                        <a href="#" class="btn-secondary">Nézd meg</a>
+                        <a href="https://wordpress.org/plugins/pixmagix/" target="_blank" class="btn-secondary">Nézd meg</a>
                     </div>
                 </div>
             </div>
@@ -209,7 +209,7 @@
     <!-- hobby Section End -->
 
     <!-- testimonials Section Start -->
-    <section id="testimonials" class="py-20 border-b border-line">
+    <section id="testimonials" class="py-25 border-b border-line">
         <div class="container">
             <div class="pb-12">
                 <p class="eyebrow">Vélemények</p>
@@ -223,7 +223,7 @@
                         „Nagyon jó választás Andris, mindenben nagyon segítőkész, válaszol,
                         ötletel és a kivitelezése is hibátlan!”
                     </p>
-
+                    <div class="grow-1"></div>
                     <div class="mt-10 flex items-center justify-between">
                         <div class="flex items-center gap-4">
                             <div class="flex h-12 w-12 items-center justify-center rounded-full border border-line bg-primary-dark text-sm font-medium text-primary">
@@ -246,7 +246,7 @@
                     <p class="italic">
                         „Andrással készíttettük el a honlapunkat, és maximálisan elégedettek vagyunk a munkájával. Gyors, precíz és rendkívül profi hozzáállást tanúsított a teljes folyamat során. Csak ajánlani tudjuk mindenkinek, aki megbízható szakembert keres weboldalkészítéshez."
                     </p>
-
+                    <div class="grow-1"></div>
                     <div class="mt-10 flex items-center justify-between">
                         <div class="flex items-center gap-4">
                             <div class="flex h-12 w-12 items-center justify-center rounded-full border border-line bg-primary-dark text-sm font-medium text-primary">
@@ -269,7 +269,7 @@
                     <p class="italic">
                         „Great product, quality code and generous customer service. Waiting to see more surprises in future updates. Thank you very much!"
                     </p>
-
+                    <div class="grow-1"></div>
                     <div class="mt-10 flex items-center justify-between">
                         <div class="flex items-center gap-4">
                             <div class="flex h-12 w-12 items-center justify-center rounded-full border border-line bg-primary-dark text-sm font-medium text-primary">
@@ -292,7 +292,7 @@
                     <p class="italic">
                         „I’ve stumbled upon a rare gem of a plugin for WordPress and WooCommerce. This nifty tool lets you edit images directly within your media, posts, and products. The best part? It’s not just for basic tweaks—you can dive in deep and make some seriously advanced modifications right from your site without downloading or uploading anything. Imagine not having to jump between different software to get that perfect look for your product images. It’s like having a mini Photoshop built right into your site! This plugin is an absolute game-changer if you’re looking to streamline your workflow and keep everything neatly within WordPress."
                     </p>
-
+                    <div class="grow-1"></div>
                     <div class="mt-10 flex items-center justify-between">
                         <div class="flex items-center gap-4">
                             <div class="flex h-12 w-12 items-center justify-center rounded-full border border-line bg-primary-dark text-sm font-medium text-primary">
@@ -317,7 +317,7 @@
     <!-- testimonials Section End -->
 
     <!-- balugasztro Section Start -->
-    <section class="py-20 border-b border-line">
+    <section class="py-25 border-b border-line">
         <div class="container">
             <div class="pb-12">
                 <p class="eyebrow">Referencia</p>
@@ -334,7 +334,7 @@
     <!-- balugasztro Section End -->
 
     <!-- xprojekt Section Start -->
-    <section id="xprojekt" class="py-20 border-b border-line">
+    <section id="xprojekt" class="py-25 border-b border-line">
         <div class="container">
             <div class="pb-12">
                 <p class="eyebrow">Szolgáltatások</p>
@@ -344,24 +344,82 @@
 
             <div class="grid sm:grid-cols-2 grid-cols-1 gap-6">
                 <div class="card">
-                    <p class="eyebrow"></p>
-                    <h3> </h3>
-                    <p></p>
+                    <div class="mb-4">
+                        <img src="{{ asset('images/webshop.webp') }}" alt="" class="w-full">
+                    </div>
+                    <h3>Egyedi, Gyors és Skálázható Webáruház Fejlesztés</h3>
+                    <p>Egy webáruház akkor működik igazán hatékonyan, ha nem neked kell alkalmazkodnod a rendszerhez, hanem a rendszer igazodik a vállalkozásod működéséhez. A sablon alapú megoldások, mint a WooCommerce, sokszor már a kezdetektől kompromisszumokra kényszerítenek: külső bővítményekre támaszkodnak, nehezebben testreszabhatók, és a forgalom növekedésével egyre instabilabbá, lassabbá válhatnak.</p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="badge badge-outline text-xs!">Laravel</span>
+                        <span class="badge badge-outline text-xs!">MySQL</span>
+                        <span class="badge badge-outline text-xs!">Vue.js</span>
+                        <span class="badge badge-outline text-xs!">Inertia</span>
+                        <span class="badge badge-outline text-xs!">TypeScript</span>
+                    </div>
+                    <div class="flex-1"></div>
+                    <div class="mt-2">
+                        <a href="https://xprojekt.hu/szolgaltatas/egyedi-gyors-es-skalazhato-webaruhaz-fejlesztes" target="_blank" class="btn-secondary">
+                            Nézd meg
+                        </a>
+                    </div>
                 </div>
                 <div class="card">
-                    <p class="eyebrow"></p>
-                    <h3> </h3>
-                    <p></p>
+                    <div class="mb-4">
+                        <img src="{{ asset('images/crm.webp') }}" alt="" class="w-full">
+                    </div>
+                    <h3>Egyedi skálázható CRM rendszer</h3>
+                    <p>Egy CRM rendszer célja, hogy egyszerűsítse a működésedet, átláthatóbbá tegye az ügyfél- és partnerkezelést, valamint csökkentse a manuális adminisztrációt. A sablonos, dobozos rendszerek gyakran nem fedik le pontosan az üzleti igényeket, vagy túl bonyolultak, felesleges funkciókkal terheltek. Egy egyedi CRM ezzel szemben úgy épül fel, ahogy a vállalkozásod működik, így nem kell kompromisszumokat kötni vagy a folyamataidat egy kész rendszerhez igazítani.</p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="badge badge-outline text-xs!">Laravel</span>
+                        <span class="badge badge-outline text-xs!">MySQL</span>
+                        <span class="badge badge-outline text-xs!">Vue.js</span>
+                        <span class="badge badge-outline text-xs!">Inertia</span>
+                        <span class="badge badge-outline text-xs!">TypeScript</span>
+                    </div>
+                    <div class="flex-1"></div>
+                    <div class="mt-2">
+                        <a href="https://xprojekt.hu/szolgaltatas/egyedi-skalazhato-crm-rendszer" target="_blank" class="btn-secondary">
+                            Nézd meg
+                        </a>
+                    </div>
                 </div>
                 <div class="card">
-                    <p class="eyebrow"></p>
-                    <h3> </h3>
-                    <p></p>
+                    <div class="mb-4">
+                        <img src="{{ asset('images/wordpress.webp') }}" alt="" class="w-full">
+                    </div>
+                    <h3>WordPress Weboldal Készítés</h3>
+                    <p>Ha egy gyors, átlátható és könnyen kezelhető weboldalra van szükséged, segítek a teljes beállításban, hogy gördülékenyen indulhass el az online térben.</p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="badge badge-outline text-xs!">WordPress</span>
+                        <span class="badge badge-outline text-xs!">PHP</span>
+                        <span class="badge badge-outline text-xs!">JavaScript</span>
+                        <span class="badge badge-outline text-xs!">CSS</span>
+                    </div>
+                    <div class="flex-1"></div>
+                    <div class="mt-2">
+                        <a href="https://xprojekt.hu/szolgaltatas/wordpress-weboldal-keszites-2" target="_blank" class="btn-secondary">
+                            Nézd meg
+                        </a>
+                    </div>
                 </div>
                 <div class="card">
-                    <p class="eyebrow"></p>
-                    <h3> </h3>
-                    <p></p>
+                    <div class="mb-4">
+                        <img src="{{ asset('images/webshop.webp') }}" alt="" class="w-full">
+                    </div>
+                    <h3>WooCommerce Webáruház Készítés</h3>
+                    <p>Ha szeretnél egy gyors, megbízható és könnyen kezelhető webáruházat, segítek a teljes beállításban, hogy gördülékenyen indulhass el az online értékesítésben.</p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="badge badge-outline text-xs!">WordPress</span>
+                        <span class="badge badge-outline text-xs!">PHP</span>
+                        <span class="badge badge-outline text-xs!">JavaScript</span>
+                        <span class="badge badge-outline text-xs!">CSS</span>
+                    </div>
+                    <div class="flex-1"></div>
+                    <div class="mt-2">
+                        <a href="https://xprojekt.hu/szolgaltatas/woocommerce-webaruhaz-keszites" target="_blank" class="btn-secondary">
+                            Nézd meg
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -369,7 +427,7 @@
     <!-- xprojekt Section End -->
 
     <!-- balugasztro Section Start -->
-    <section class="py-20 border-b border-line">
+    <section class="py-25 border-b border-line">
         <div class="container">
             <div class="pb-12">
                 <p class="eyebrow">Referencia</p>
@@ -377,16 +435,16 @@
                 <p>Én alakítottam ki a rendszer alapvető struktúráját, architektúráját és designját, valamint aktívan részt veszek a platform fejlesztésében.</p>
             </div>
             <div>
-                <a href="#" class="btn-secondary">Nézd meg</a>
+                <a href="https://xprojekt.hu/" target="_blank" class="btn-secondary">Nézd meg</a>
             </div>
         </div>
     </section>
     <!-- balugasztro Section End -->
 
     <!-- contact Section Start -->
-    <section id="contact" class="py-20 border-b border-line">
+    <section id="contact" class="py-25 border-b border-line">
         <div class="container">
-            <div class="grid sm:grid-cols-2 grid-cols-1 gap-6">
+            <div class="grid sm:grid-cols-2 grid-cols-1 gap-12">
                 <div>
                     <p class="eyebrow">Kapcsolat</p>
 					<h2>
@@ -415,7 +473,7 @@
                             Köszönöm az üzenetet! Hamarosan felveszem veled a kapcsolatot.
                         </div>
                     @else
-                        <form method="POST" action="">
+                        <form method="POST" action="{{ route('contact.send') }}">
                             @csrf
 
                             <div class="form-group">

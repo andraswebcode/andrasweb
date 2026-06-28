@@ -88,14 +88,10 @@
     <!-- Footer Section Start -->
     <section class="py-8">
         <div class="container">
-            <ul class="flex flex-wrap items-center justify-center gap-5">
-                <li>
-                    <a href="#" class="">About</a>
-                </li>
-            </ul>
-
-            <p class="mt-5 text-center">
-            </p>
+            <div class="mt-5 flex flex-col items-center">
+                <a href="{{ route('privacy') }}">Adatkezelés</a>
+                <p>© {{ date('Y') }} Tövisháti András · AndrasWeb</p>
+            </div>
         </div>
     </section>
     <!-- Footer Section End -->
