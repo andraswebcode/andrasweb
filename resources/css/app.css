@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+@source '../../storage/framework/views/*.php';
+
+/* Tailwind Plugin */
+@plugin "@tailwindcss/typography";
+@plugin "@tailwindcss/forms";
+
+/* Iconify Icons */
+@plugin "@iconify/tailwind4" {
+    prefixes: tabler, lucide, fa6-solid, fa6-regular, fa6-brands, solar;
+}
+
+@theme {
+    --font-body: 'DM Sans', system-ui, sans-serif;
+    --font-heading: 'Instrument Serif', Georgia, serif;
+
+    --color-mute: #7a7774;
+    --color-bg: #0a0a0b;
+    --color-card: #111113;
+    --color-line: #ffffff14;
+    --color-primary: #c8a96e;
+    --color-primary-light: #e2c896;
+    --color-primary-dark: rgba(200,169,110,0.10);
+
+    --breakpoint-2xl: initial;
+    --breakpoint-xl: initial;
+}
+
+@layer base {
+    html {
+        @apply relative scroll-smooth;
+    }
+
+    body {
+        @apply font-body overflow-x-hidden text-mute bg-[#0a0a0b] text-[1rem];
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-normal leading-tight font-heading mb-4 text-white;
+    }
+
+    h1 {
+        @apply text-6xl;
+    }
+    h2 {
+        @apply text-5xl;
+    }
+    h3 {
+        @apply text-3xl;
+    }
+    h4 {
+        @apply text-2xl;
+    }
+    h5 {
+        @apply text-xl;
+    }
+
+    p {
+        @apply leading-relaxed mb-4;
+    }
+
+    strong {
+        @apply text-white font-medium;
+    }
+
+    a:hover {
+        @apply text-white;
+    }
+}
+
+@layer utilities {
+    .card {
+        @apply p-6 rounded-xl border border-line bg-card flex flex-col;
+    }
+    .btn-group {
+        @apply flex flex-wrap gap-4;
+    }
+    .btn-primary {
+        @apply inline-flex items-center gap-2 rounded-md bg-primary px-6 py-3 font-medium text-bg no-underline transition-transform duration-150 hover:-translate-y-px hover:bg-primary-light;
+    }
+    .btn-secondary {
+        @apply inline-flex items-center gap-2 rounded-md border border-line bg-transparent px-6 py-3 font-normal text-mute no-underline transition-colors duration-200 hover:border-white/25 hover:text-white;
+    }
+    .eyebrow {
+        @apply text-xs font-medium text-primary tracking-widest uppercase mb-2;
+    }
+    .highlight {
+        @apply text-primary italic;
+    }
+    .badge {
+        @apply text-sm text-mute border border-line rounded-full px-3 py-1
+    }
+    .badge-highlighted {
+        @apply border-primary bg-primary-dark text-primary;
+    }
+    .badge-outline {
+        @apply border-line text-mute hover:border-primary hover:bg-primary-dark hover:text-primary;
+    }
+}
+
+@layer components {
+
+	form {
+		@apply flex flex-col gap-4;
+	}
+
+	.form-group {
+		@apply flex flex-col gap-1.5;
+	}
+
+	form label {
+		@apply text-xs font-medium uppercase tracking-[0.08em] text-zinc-400;
+	}
+
+	form input[type="text"],
+	form input[type="email"],
+	form textarea {
+		@apply w-full rounded-lg border border-white/10 bg-zinc-900 px-4 py-3 text-sm text-white outline-none transition placeholder:text-zinc-600;
+	}
+
+	form input[type="text"]:focus,
+	form input[type="email"]:focus,
+	form textarea:focus {
+		@apply border-amber-300/45;
+	}
+
+	form textarea {
+		@apply min-h-[120px] resize-y;
+	}
+
+	form button[type="submit"] {
+		@apply inline-flex w-fit cursor-pointer items-center gap-2 self-start border-0;
+	}
+}
+
+@utility container {
+	margin-inline: auto;
+	width: 100%;
+    @apply px-6;
+}
