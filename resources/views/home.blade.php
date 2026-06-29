@@ -45,17 +45,18 @@
 
                     <div class="card">
                         <h3>WordPress weboldalak</h3>
-                        <p>Landing oldalak és WordPress weboldalak készítése Elementor, vagy Divi használatával.</p>
+                        <p>Weboldalakat, landing oldalakat készítek Elementor, vagy Divi használatával.</p>
                     </div>
 
                     <div class="card">
                         <h3>Karbantartás, hibajavítás</h3>
-                        <p>Meglévő weboldalak és alkalmazások karbantartása, frissítése és továbbfejlesztése.</p>
+                        <p>Segítek meglévő weboldalak és alkalmazások karbantartásában, frissítésében és továbbfejlesztésében.</p>
                     </div>
             </div>
         </div>
     </section>
     <!-- services Section End -->
+
 
     <!-- about Section Start -->
     <section id="about" class="py-25 border-b border-line">
