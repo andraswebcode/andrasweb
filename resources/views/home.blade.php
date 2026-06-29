@@ -194,7 +194,7 @@
                     </div>
                     <div class="grow-1"></div>
                     <div>
-                        <a href="https://wordpress.org/plugins/pixmagix/" target="_blank" class="btn-secondary">Nézd meg</a>
+                        <a href="https://github.com/andraswebcode/pixmagix" target="_blank" class="btn-secondary">Nézd meg</a>
                     </div>
                 </div>
             </div>
@@ -445,7 +445,7 @@
 						Dolgozzunk <span class="highlight">együtt.</span>
 					</h2>
                     <p>
-                        Ha kapacitáshiányod van, kiszerveznél egy projektet, vagy csak felmérjük hogy tudnék-e segíteni – írj nyugodtan. Általában 24 órán belül válaszolok.
+                        Ha kapacitáshiányod van, kiszerveznél egy projektet, vagy csak felmérjük hogy tudnék-e segíteni, írj nyugodtan. Általában 24 órán belül válaszolok.
                     </p>
                     <p>
                         <a href="mailto:info@andrasweb.com" class="btn-secondary w-full">
