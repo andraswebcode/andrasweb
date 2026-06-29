@@ -57,7 +57,6 @@
     </section>
     <!-- services Section End -->
 
-
     <!-- about Section Start -->
     <section id="about" class="py-25 border-b border-line">
         <div class="container">
@@ -485,14 +484,19 @@
                                 <textarea id="message" name="message" placeholder="Írj nekem valamit :)" required></textarea>
                             </div>
 
-                            <button type="submit" class="btn-primary">
+                            <button type="submit" class="btn-primary" onclick="onContactSubmit">
                                 Üzenet küldése
-
-                                <svg width="15" height="15" viewBox="0 0 16 16" fill="none">
-                                    <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
+                                <i class=""></i>
                             </button>
                         </form>
+                        <script>
+                            function onContactSubmit(e) {
+                                e.preventDefault();
+                                grecaptcha.enterprise.ready(async () => {
+                                    const token = await grecaptcha.enterprise.execute('{{ config("services.recaptcha.site_key") }}', {action: 'contact'});
+                                });
+                            }
+                        </script>
                     @endif
                 </div>
             </div>
