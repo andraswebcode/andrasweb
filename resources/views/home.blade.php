@@ -6,10 +6,10 @@
         <div class="container">
             <div class="grid lg:grid-cols-2 grid-cols-1 gap-12 items-center">
                 <div>
-                    <div class="eyebrow">Szabadúszó webfejlesztő</div>
-                    <h1>Tövisháti András vagyok <span class="highlight"> szabadúszó webfejlesztő</span></h1>
+                    <div class="eyebrow">Tövisháti András vagyok</div>
+                    <h1>Szabadúszó <span class="highlight">webfejlesztő</span></h1>
                     <p>
-                        7 éve foglalkozom SaaS alkalmazások, és egyedi WordPress bővítmények fejlesztésével. Eleinte csak hobbiból fejlesztettem, ma már cégeknek segítek be a fejlesztésbe.
+                        7 éve foglalkozom WordPress oldalak, egyedi WordPress bővítmények és SaaS appok fejlesztésével.
                         <br>
                         Dolgozzunk együtt :-)
                     </p>
@@ -66,7 +66,7 @@
 
                 <div>
                     <p>
-                        7 évvel ezelőtt a zenekaromnak szüksége volt egy weboldalra. Arra gondoltam, hogy <strong>informatikai szakos voltam a gimnáziumban</strong>, ezt talán én is meg tudom csinálni. Ekkor ismerkedtem meg a <strong>WordPress</strong>-szel.
+                        7 évvel ezelőtt a zenekaromnak szüksége volt egy weboldalra. Arra gondoltam, hogy <strong>informatikai szakos voltam a gimiben</strong>, ezt talán én is meg tudom csinálni. Ekkor ismerkedtem meg a <strong>WordPress</strong>-szel.
                     </p>
 
                     <p>
@@ -74,27 +74,21 @@
                     </p>
 
                     <p>
-                        Hamar rájöttem, hogy a WordPress önmagában nem minden. Komolyabb frameworkök elsajátításával összetettebb alkalmazásokat építhetek, és értékesebb szakemberré válhatok a piacon. Ekkor kezdtem el tanulni a <strong>Laravelt, a Reactet, a Vue.js-t, az Angulart</strong> és számos más keretrendszert.
+                        Néhány évre rá elkezdtem megtanulni különböző frameworköket is: Laravel-t, React-ot, Vue.js-t, Angular-t. Majd elkészítettem első komolyabb SaaS alkalmazásomat a <a href="https://pixkreator.com/" target="_blank">PixKreator</a>-t.
                     </p>
 
                     <p>
-                        <strong>3 éve dolgozom szabadúszóként.</strong> Többnyire IT-cégeknek végzek fejlesztési munkákat, de készítettem már weboldalt, webáruházat, teljes platformot és CRM-rendszert is a nulláról.
+                        <strong>3 éve dolgozom szabadúszóként.</strong> Munkáim jelentős részét white label együttműködésben végzem IT-, marketing- és kreatív ügynökségek számára, emellett készítettem már weboldalakat, teljes platformot és CRM-rendszert is a nulláról.
                     </p>
-
+                    
                     <p>
-                        Munkám során önállóan és felelősségteljesen dolgozom. Nem igényelek folyamatos iránymutatást, és a nagyobb felelősséggel járó feladatokat is magabiztosan vállalom. Emellett fontosnak tartom a folyamatos tanulást és a szakmai fejlődést, ezért rendszeresen bővítem a tudásomat új technológiákkal és módszerekkel.
-                    </p>
-
-                    <p>
-                        Szeretek <strong>hosszú távú együttműködésekben</strong> gondolkodni, ezért ügyfeleimmel nem csupán egy-egy projekt erejéig dolgozom együtt. Fontos számomra a <strong>megbízhatóság és a folyamatos kapcsolattartás:</strong> elérhető vagyok, gyorsan reagálok, és a projekt átadása után sem tűnök el.
+                        Önállóan, megbízhatóan és felelősségteljesen dolgozom. Fontos számomra a folyamatos fejlődés és a hosszú távú együttműködés, ezért gyors kommunikációra, stabil támogatásra és tartós partneri kapcsolatokra törekszem.
                     </p>
 
                     <div class="card">
-                        <div class="eyebrow">Az AI-ról őszintén</div>
+                        <div class="eyebrow">AI szemlélet</div>
                         <p>
-                            Mindenki használ már AI-t a fejlesztéshez, én is. De fontos a különbség:
-                            nálam az AI eszköz, nem helyettesítő. Minden generált kódot átnézek, megértem,
-                            és csak akkor commitolom, ha felelősséget tudok vállalni érte.
+                            Még az AI elterjedése előtt tanultam meg programozni, ezért először a fejlesztés alapjait sajátítottam el. Ennek köszönhetően az AI-t nem helyettesítőként, hanem hatékony eszközként használom: megértem a generált kódot, ellenőrzöm, és csak olyan megoldást adok át, amiért felelősséget tudok vállalni.
                         </p>
                     </div>
                 </div>
@@ -109,23 +103,23 @@
             <div class="pb-12">
                 <p class="eyebrow">Miben segíthetek</p>
                 <h2>Hol tudok <span class="highlight">bekapcsolódni</span></h2>
-                <p>Órabérben dolgozom. Csak annyit számlázok, amennyit valóban a gép előtt ülve a munkával töltöttem.</p>
+                <p>Fejlesztőként új és meglévő projektekbe is be tudok kapcsolódni, white label együttműködésben, óradíjas alapon.</p>
             </div>
 
             <div class="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
                     <div class="card">
-                        <h3>Frontend Development</h3>
-                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested</p>
+                        <h3>Fejlesztői együttműködés</h3>
+                        <p>Sok a nyitott feladat vagy csúsznak a fejlesztések? Segítek tehermentesíteni a csapatot.</p>
                     </div>
 
                     <div class="card">
-                        <h3>Frontend Development</h3>
-                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested</p>
+                        <h3>WordPress weboldalak</h3>
+                        <p>Landing oldalak és WordPress weboldalak készítése Elementor, vagy Divi használatával.</p>
                     </div>
 
                     <div class="card">
-                        <h3>Frontend Development</h3>
-                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested</p>
+                        <h3>Karbantartás, hibajavítás</h3>
+                        <p>Meglévő weboldalak és alkalmazások karbantartása, frissítése és továbbfejlesztése.</p>
                     </div>
             </div>
         </div>
@@ -455,13 +449,13 @@
                     </p>
                     <p>
                         <a href="mailto:info@andrasweb.com" class="btn-secondary w-full">
-                            <i class=""></i>
+                            <i class="iconify fa6-regular--envelope size-7"></i>
                             info@andrasweb.com
                         </a>
                     </p>
                     <p>
                         <a href="https://www.linkedin.com/in/andras-tovishati/" target="_blank" rel="noopener" class="btn-secondary w-full">
-                            <i class=""></i>
+                            <i class="iconify fa6-brands--linkedin-in size-5"></i>
                             LinkedIn profil
                         </a>
                     </p>
