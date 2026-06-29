@@ -29,14 +29,14 @@
                     class="pointer-events-none fixed top-[57px] left-0 right-0 z-40 flex translate-y-[-8px] flex-col border-b border-white/10 bg-black/95 py-2 opacity-0 backdrop-blur-xl transition-all duration-200 ease-out lg:pointer-events-auto lg:static lg:z-auto lg:flex lg:translate-y-0 lg:flex-row lg:items-center lg:gap-8 lg:border-0 lg:bg-transparent lg:p-0 lg:opacity-100 lg:backdrop-blur-none"
                 >
                     <li class="border-b border-white/10 lg:border-0">
-                        <a href="{{ url('/#about') }}" class="block px-7 py-4 text-sm text-zinc-400 transition hover:bg-white/5 hover:text-white lg:p-0 lg:hover:bg-transparent">
-                            Rólam
+                        <a href="{{ url('/#services') }}" class="block px-7 py-4 text-sm text-zinc-400 transition hover:bg-white/5 hover:text-white lg:p-0 lg:hover:bg-transparent">
+                            Miben segíthetek
                         </a>
                     </li>
 
                     <li class="border-b border-white/10 lg:border-0">
-                        <a href="{{ url('/#services') }}" class="block px-7 py-4 text-sm text-zinc-400 transition hover:bg-white/5 hover:text-white lg:p-0 lg:hover:bg-transparent">
-                            Miben segíthetek
+                        <a href="{{ url('/#about') }}" class="block px-7 py-4 text-sm text-zinc-400 transition hover:bg-white/5 hover:text-white lg:p-0 lg:hover:bg-transparent">
+                            Rólam
                         </a>
                     </li>
 

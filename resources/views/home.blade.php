@@ -6,11 +6,10 @@
         <div class="container">
             <div class="grid lg:grid-cols-2 grid-cols-1 gap-12 items-center">
                 <div>
-                    <div class="eyebrow">Tövisháti András vagyok</div>
-                    <h1>Szabadúszó <span class="highlight">webfejlesztő</span></h1>
+                    <div class="eyebrow">Partneri együttműködés</div>
+                    <h1>White Label <span class="highlight">Webfejlesztés</span></h1>
                     <p>
-                        7 éve foglalkozom WordPress oldalak, egyedi WordPress bővítmények és SaaS appok fejlesztésével.
-                        <br>
+                        Extra fejlesztői kapacitást biztosítok marketingügynökségeknek, kreatív stúdióknak és fejlesztőcsapatoknak. Hosszú távú partnerként segítek weboldalak, webalkalmazások és egyedi rendszerek fejlesztésében.
                         Dolgozzunk együtt :-)
                     </p>
                     <div class="btn-group">
@@ -28,6 +27,35 @@
         </div>
     </section>
     <!-- Hero Section End -->
+
+    <!-- services Section Start -->
+    <section id="services" class="py-25 border-b border-line">
+        <div class="container">
+            <div class="pb-12">
+                <p class="eyebrow">Miben segíthetek</p>
+                <h2>Hol tudok <span class="highlight">bekapcsolódni</span></h2>
+                <p>Fejlesztőként új és meglévő projektekbe is be tudok kapcsolódni, white label együttműködésben, óradíjas alapon.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
+                    <div class="card">
+                        <h3>Fejlesztői együttműködés</h3>
+                        <p>Sok a nyitott feladat vagy csúsznak a fejlesztések? Segítek tehermentesíteni a csapatot.</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>WordPress weboldalak</h3>
+                        <p>Landing oldalak és WordPress weboldalak készítése Elementor, vagy Divi használatával.</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Karbantartás, hibajavítás</h3>
+                        <p>Meglévő weboldalak és alkalmazások karbantartása, frissítése és továbbfejlesztése.</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- services Section End -->
 
     <!-- about Section Start -->
     <section id="about" class="py-25 border-b border-line">
@@ -78,7 +106,7 @@
                     </p>
 
                     <p>
-                        <strong>3 éve dolgozom szabadúszóként.</strong> Munkáim jelentős részét white label együttműködésben végzem IT-, marketing- és kreatív ügynökségek számára, emellett készítettem már weboldalakat, teljes platformot és CRM-rendszert is a nulláról.
+                        <strong>3 éve dolgozom szabadúszóként.</strong> Munkáim jelentős részét white label együttműködésben, alvállalkozóként végzem IT-, marketing- és kreatív ügynökségek számára, emellett készítettem már weboldalakat, teljes platformot és CRM-rendszert is a nulláról.
                     </p>
                     
                     <p>
@@ -96,35 +124,6 @@
         </div>
     </section>
     <!-- about Section End -->
-
-    <!-- services Section Start -->
-    <section id="services" class="py-25 border-b border-line">
-        <div class="container">
-            <div class="pb-12">
-                <p class="eyebrow">Miben segíthetek</p>
-                <h2>Hol tudok <span class="highlight">bekapcsolódni</span></h2>
-                <p>Fejlesztőként új és meglévő projektekbe is be tudok kapcsolódni, white label együttműködésben, óradíjas alapon.</p>
-            </div>
-
-            <div class="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
-                    <div class="card">
-                        <h3>Fejlesztői együttműködés</h3>
-                        <p>Sok a nyitott feladat vagy csúsznak a fejlesztések? Segítek tehermentesíteni a csapatot.</p>
-                    </div>
-
-                    <div class="card">
-                        <h3>WordPress weboldalak</h3>
-                        <p>Landing oldalak és WordPress weboldalak készítése Elementor, vagy Divi használatával.</p>
-                    </div>
-
-                    <div class="card">
-                        <h3>Karbantartás, hibajavítás</h3>
-                        <p>Meglévő weboldalak és alkalmazások karbantartása, frissítése és továbbfejlesztése.</p>
-                    </div>
-            </div>
-        </div>
-    </section>
-    <!-- services Section End -->
 
     <!-- hobby Section Start -->
     <section id="hobby" class="py-25 border-b border-line">
