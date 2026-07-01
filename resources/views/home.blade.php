@@ -7,7 +7,7 @@
             <div class="grid lg:grid-cols-2 grid-cols-1 gap-12 items-center">
                 <div>
                     <div class="eyebrow">Partneri együttműködés</div>
-                    <h1>White Label <span class="highlight">Webfejlesztés</span></h1>
+                    <h1><span class="highlight">Segítségre</span> van szükséged?</h1>
                     <p>
                         Extra fejlesztői kapacitást biztosítok marketingügynökségeknek, kreatív stúdióknak és fejlesztőcsapatoknak. Hosszú távú partnerként segítek weboldalak, webalkalmazások és egyedi rendszerek fejlesztésében.
                         Dolgozzunk együtt :-)
@@ -98,7 +98,7 @@
                     </p>
 
                     <p>
-                        Eleinte csak hobbi szinten fejlesztettem plugineket, majd <strong>az <a href="https://codecanyon.net/user/andrasweb">Envato marketplace-en</a> értékesítettem, ahol 5 csillagos értékeléseket kaptam.</strong>
+                        Eleinte csak hobbi szinten fejlesztettem plugineket, majd <strong>az <a href="https://codecanyon.net/user/andrasweb" target="_blank">Envato marketplace-en</a> értékesítettem, ahol 5 csillagos értékeléseket kaptam.</strong>
                     </p>
 
                     <p>
@@ -193,7 +193,7 @@
                     </div>
                     <div class="grow-1"></div>
                     <div>
-                        <a href="https://github.com/andraswebcode/pixmagix" target="_blank" class="btn-secondary">Nézd meg</a>
+                        <a href="https://wordpress.org/plugins/pixmagix/" target="_blank" class="btn-secondary">Nézd meg</a>
                     </div>
                 </div>
             </div>
