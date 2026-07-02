@@ -1,26 +1,26 @@
 name: AndrasWeb
 
 on:
-	push:
-		branches:
-			- main
+  push:
+    branches:
+      - main
 
 jobs:
-	deploy:
-		runs-on: ubuntu-latest
+  deploy:
+    runs-on: ubuntu-latest
 
-		steps:
-			- uses: actions/checkout@v4
+    steps:
+      - uses: actions/checkout@v4
 
-			- name: Deploy
-				uses: appleboy/ssh-action@v1.2.0
-				with:
-					host: ${{ secrets.HOST }}
-					username: ${{ secrets.USER }}
-					key: ${{ secrets.SSH_KEY }}
-					script: |
-						cd /var/www/andrasweb.com
-						git pull origin main
-						php artisan optimize:clear
-						php artisan optimize
-						npm run build
+      - name: Deploy
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USER }}
+          key: ${{ secrets.SSH_KEY }}
+          script: |
+            cd /var/www/andrasweb.com
+            git pull origin main
+            php artisan optimize:clear
+            php artisan optimize
+            npm run build
