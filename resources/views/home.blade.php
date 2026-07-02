@@ -94,7 +94,7 @@
 
                 <div>
                     <p>
-                        Hét évvel ezelőtt a zenekaromnak szüksége volt egy weboldalra. Arra gondoltam, hogy <strong>informatikai szakos voltam a gimiben</strong>, ezt talán én is meg tudom csinálni. Ekkor ismerkedtem meg a <strong>WordPress</strong>-szel.
+                        7 évvel ezelőtt a zenekaromnak szüksége volt egy weboldalra. Arra gondoltam, hogy <strong>informatikai szakos voltam a gimiben</strong>, ezt talán én is meg tudom csinálni. Ekkor ismerkedtem meg a <strong>WordPress</strong>-szel.
                     </p>
 
                     <p>
