@@ -9,6 +9,8 @@ use App\Rules\Recaptcha;
 
 class ContactForm extends Component
 {
+	public bool $success = false;
+
     public string $name = '';
 	public string $email = '';
 	public string $message = '';
@@ -35,9 +37,7 @@ class ContactForm extends Component
 
 		$this->reset();
 
-		session()->flash('contact_success', true);
-
-		// $this->redirectRoute('home', navigate: false);
+		$this->success = true;
 	}
 
     public function render()

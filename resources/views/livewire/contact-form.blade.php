@@ -1,4 +1,9 @@
 <form>
+	@if ($success)
+	<div class="success-message">
+		Köszönöm az üzenetet! Hamarosan felveszem veled a kapcsolatot.
+	</div>
+	@else
 	<div class="form-group">
 		<label>Név</label>
 		<input type="text" wire:model="name">
@@ -37,6 +42,7 @@
 	>
 		Küldés
 	</button>
+	@endif
 </form>
 
 @once
