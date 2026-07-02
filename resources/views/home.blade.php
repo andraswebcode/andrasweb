@@ -461,35 +461,7 @@
                 </div>
 
                 <div>
-                    @if(session('contact_success'))
-                        <div class="success-message">
-                            Köszönöm az üzenetet! Hamarosan felveszem veled a kapcsolatot.
-                        </div>
-                    @else
-                        <form method="POST" action="{{ route('contact.send') }}">
-                            @csrf
-
-                            <div class="form-group">
-                                <label for="name">Neved / Céged</label>
-                                <input type="text" id="name" name="name" placeholder="" required>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="email">E-mail cím</label>
-                                <input type="email" id="email" name="email" placeholder="" required>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="message">Miben segíthetek?</label>
-                                <textarea id="message" name="message" placeholder="Írj nekem valamit :)" required></textarea>
-                            </div>
-
-                            <button type="submit" class="btn-primary" onclick="onContactSubmit">
-                                Üzenet küldése
-                                <i class=""></i>
-                            </button>
-                        </form>
-                    @endif
+                    <livewire:contact-form />
                 </div>
             </div>
         </div>
