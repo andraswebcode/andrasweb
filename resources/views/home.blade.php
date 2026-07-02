@@ -489,14 +489,6 @@
                                 <i class=""></i>
                             </button>
                         </form>
-                        <script>
-                            function onContactSubmit(e) {
-                                e.preventDefault();
-                                grecaptcha.enterprise.ready(async () => {
-                                    const token = await grecaptcha.enterprise.execute('{{ config("services.recaptcha.site_key") }}', {action: 'contact'});
-                                });
-                            }
-                        </script>
                     @endif
                 </div>
             </div>
