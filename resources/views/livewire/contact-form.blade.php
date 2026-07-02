@@ -26,22 +26,24 @@
 		<span class="text-sm text-red-500">{{ $message }}</span>
 	@enderror
 
-	<button
-		type="button"
-		x-data
-        class="btn-primary"
-		@click="
-			grecaptcha.ready(() => {
-				grecaptcha.execute('{{ config('services.recaptcha.site_key') }}', {
-					action: 'contact'
-				}).then(token => {
-					$wire.submit(token);
+	<div>
+		<button
+			type="button"
+			x-data
+			class="btn-primary"
+			@click="
+				grecaptcha.ready(() => {
+					grecaptcha.execute('{{ config('services.recaptcha.site_key') }}', {
+						action: 'contact'
+					}).then(token => {
+						$wire.submit(token);
+					});
 				});
-			});
-		"
-	>
-		Küldés
-	</button>
+			"
+		>
+			Küldés
+		</button>
+	</div>
 	@endif
 </form>
 
